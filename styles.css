@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Type selectors */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    gap: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #F9FAF8;
+    font-weight: 600;
+    text-decoration-line: none;
+}
+
+li a {
+    font-weight: 400;
+}
+
+
+/* Class selectors */
+.hero {
+    padding: 16px 15vw;
+}
+
+.hero, .footer {
+    background-color: #1F2937;
+}
+
+.topbar, .main {
+    margin-bottom: 64px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    gap: 22px;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    padding: 64px;
+    width: 425px;
+    height: 125px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100px;
+    margin-block: 16px;
+}
+
+
+/* Text varieties */
+.primary {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.secondary {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.logo.primary {
+    font-size: 24px;
+}
+
+.links.secondary {
+    font-size: 14px;
+}
