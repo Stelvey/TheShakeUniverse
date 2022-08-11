@@ -26,12 +26,9 @@ li a {
 
 
 /* Class selectors */
-.hero {
-    padding: 16px 15%;
-}
-
 .hero, .footer {
     background-color: #1F2937;
+    padding: 16px 15%;
 }
 
 .topbar, .main, .info {
@@ -185,4 +182,8 @@ li a {
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
+}
+
+.footer .secondary {
+    text-align: center;
 }
