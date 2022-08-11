@@ -34,8 +34,8 @@ li a {
     background-color: #1F2937;
 }
 
-.topbar, .main {
-    margin-bottom: 64px;
+.topbar, .main, .info {
+    margin-bottom: 88px;
 }
 
 .topbar {
@@ -85,8 +85,8 @@ li a {
 }
 
 .info .primary {
-    margin-block: 38px;
     text-align: center;
+    margin-block: 38px;
 }
 
 .info .secondary {
@@ -111,6 +111,20 @@ li a {
     flex-wrap: wrap;
     gap: 50px;
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 112px 22vw;
+    background-color: #E5E7EB;
+}
+
+.quote .primary {
+    align-self: flex-end;
 }
 
 
@@ -141,4 +155,16 @@ li a {
 
 .gallery .secondary {
     color: rgb(100, 100, 100);
+}
+
+.quote .primary {
+    font-size: 24px;
+    color: #1F2937;
+}
+
+.quote .secondary {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
 }
