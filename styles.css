@@ -27,7 +27,7 @@ li a {
 
 /* Class selectors */
 .hero {
-    padding: 16px 15vw;
+    padding: 16px 15%;
 }
 
 .hero, .footer {
@@ -76,14 +76,6 @@ li a {
     margin-block: 16px;
 }
 
-
-.info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .info .primary {
     text-align: center;
     margin-block: 38px;
@@ -119,12 +111,38 @@ li a {
     justify-content: center;
     align-items: center;
     gap: 12px;
-    padding: 112px 22vw;
+    padding: 112px 20%;
     background-color: #E5E7EB;
 }
 
 .quote .primary {
     align-self: flex-end;
+}
+
+.action {
+    padding: 5% 10%;
+}
+
+.window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.window .left {
+    flex: 4;
+}
+
+.window .primary {
+    font-size: 28px;
+}
+
+.window .button {
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
 }
 
 
