@@ -4,6 +4,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    background-color: #312A23;
 }
 
 ul {
@@ -36,7 +37,7 @@ img {
 
 /* Class selectors */
 .hero, .footer {
-    background-color: #1F2937;
+    background-color: #46042D;
     padding: 16px 15%;
 }
 
@@ -65,10 +66,11 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3882F6;
+    background-color: #E44611;
     padding: 8px;
     border-radius: 5px;
     width: 144px;
+    height: 36px;
     margin-block: 16px;
 }
 
@@ -88,7 +90,7 @@ img {
 }
 
 .image {
-    border: 5px solid #3882F6;
+    border: 5px solid #E44611;
     border-radius: 24px;
     margin-bottom: 8px;
 }
@@ -109,7 +111,7 @@ img {
     align-items: center;
     gap: 12px;
     padding: 112px 20%;
-    background-color: #E5E7EB;
+    background-color: #201A1C;
 }
 
 .quote .primary {
@@ -124,7 +126,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3882F6;
+    background-color: #E44611;
     padding: 50px 15%;
     border-radius: 8px;
 }
@@ -169,25 +171,18 @@ img {
 }
 
 .info .primary {
-    color: #1F2937;
     font-size: 36px;
     text-align: center;
 }
 
-.gallery .secondary {
-    color: rgb(100, 100, 100);
-}
-
 .quote .primary {
     font-size: 24px;
-    color: #353E4B;
 }
 
 .quote .secondary {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    color: #4b535e;
 }
 
 .footer .secondary {
