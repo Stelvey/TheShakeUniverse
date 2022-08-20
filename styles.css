@@ -4,7 +4,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    background-color: #312A23;
+    background-image: url(noise.png);
+    background-attachment: fixed;
 }
 
 ul {
@@ -33,16 +34,24 @@ img {
     width: 100%;
     max-width: 600px;
     height: auto;
+    filter: drop-shadow(1px 1px 4px #000);
 }
 
 /* Class selectors */
 .hero, .footer {
-    background-color: #46042D;
     padding: 16px 15%;
 }
 
-.topbar, .main, .info {
-    margin-bottom: 88px;
+.hero {
+    padding-bottom: 64px;
+}
+
+.topbar {
+    margin-bottom: 64px;
+}
+
+.info, .action {
+    background-color: #312A23;
 }
 
 .topbar {
@@ -58,8 +67,11 @@ img {
     gap: 22px;
 }
 
-.left, .right {
+.main .left, .main .right {
     flex: 1;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
 }
 
 .button {
@@ -79,9 +91,13 @@ img {
     height: 260px;
 }
 
+.info {
+    padding: 5% 10%;
+}
+
 .info .primary {
     text-align: center;
-    margin-block: 38px;
+    margin-bottom: 38px;
 }
 
 .image {
@@ -187,6 +203,14 @@ img {
 
 .footer .secondary {
     text-align: center;
+}
+
+.hero .primary, .logo.primary a {
+    color: #5c4646;
+}
+
+.hero .secondary, .topbar a, .footer .secondary, .footer a {
+    color: #7a5b5b;
 }
 
 
